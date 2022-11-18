@@ -1,0 +1,38 @@
+.container {
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__card-sedans {
+    height: 30rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+}
+.container__card-SUVs {
+    height: 30rem;
+    border-bottom-right-radius: 0;
+}
+.container__card-luxury {
+    height: 30rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.5rem;
+}
+.container__card-button {
+    margin-top: 4.5rem;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 2vh;
+    background-color: var(--Very-lightgray);
+}
